@@ -24,16 +24,19 @@ I have created my package manager in Lua script that is deployed to AOS and can 
 - Run with `node index.js`
 
 Example commands for lua scripts manager setup:
-- ```
+-
+```
 aos test-db1 -module=GYrbbe0VbHim_7Hi6zrOpHQXrSQz07XNtwCnfbFo2I0
 ```
 - `.load src/main.lua`
 - `InitDb()`
 - `dbAdmin:tables()`
-- ```
-Send({Target = ao.id, Action = "Register", Data= "some-package-name", Desc="Lorem Ipsum Dolorem", Docs="https://google.com"})
+   Create new package
 ```
-- ```
+Send({Target = ao.id, Action = "Register", Data= "some-package-name", Desc="Lorem Ipsum Dolorem", Docs="https://google.com"}) 
+```
+- Deploy new version of the package
+```
 Send({Target = ao.id, Data= "some-package-name", Action = "Deploy" Version="1.1"})
 ```
 
