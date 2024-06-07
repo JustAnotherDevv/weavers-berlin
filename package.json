@@ -1,0 +1,17 @@
+{
+  "name": "aos-pm",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "package manager for aos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "nevvdevv",
+  "license": "ISC",
+  "dependencies": {
+    "@permaweb/aoconnect": "^0.0.55",
+    "native-modules": "^2.0.2"
+  }
+}

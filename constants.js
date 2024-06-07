@@ -1,0 +1,2 @@
+export const PACKAGE_REGISTRY_PROCESS='QxkvICTx8ZPF0GTkaeWyk1zPhvweqoNeflET_sCdPgg';
+export const PACKAGE_METADATA_PROCESS='ToDo';
